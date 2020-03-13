@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DataGridDemo"
+             xmlns:data="clr-namespace:Syncfusion.Data;assembly=Syncfusion.Data.Portable"
+             xmlns:sfgrid="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
+             xmlns:sfPager="clr-namespace:Syncfusion.SfDataGrid.XForms.DataPager;assembly=Syncfusion.SfDataGrid.XForms"
+             x:Class="DataGridDemo.MainPage">
+    <ContentPage.Content>
+        <local:CustomStackLayout Orientation="Vertical">
+            <sfgrid:SfDataGrid x:Name="sfgrid" AllowResizingColumn="True" AllowSwiping="True">
+
+            </sfgrid:SfDataGrid>
+        </local:CustomStackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
